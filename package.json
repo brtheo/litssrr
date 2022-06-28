@@ -1,0 +1,30 @@
+{
+  "name": "lit-labs-ssr-simple-demo",
+  "description": "",
+  "author": {
+    "name": "Bogdan Luca",
+    "email": "bogdan@codesandbox.io"
+  },
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "@lit-labs/ssr": "2.0.2",
+    "@webcomponents/template-shadowroot": "0.1.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "5.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-node-resolve": "1.0.0-pre.9",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "lit": "2.1.3"
+  },
+  "keywords": []
+}
